@@ -237,6 +237,6 @@ app.use(function (err, req, res, next) {
 })
 
 // Run the application
-app.listen(process.env.PORT || 5000)
+app.listen(port);
 
 module.exports = app;
