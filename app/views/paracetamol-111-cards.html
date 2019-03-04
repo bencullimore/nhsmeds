@@ -1,0 +1,109 @@
+{% extends 'layouts/layout-nhsuk.html' %}
+
+{% block pageTitle %}
+  NHS.UK prototype Kit - Content page template
+{% endblock %}
+
+{% block beforeContent %}
+    {{ breadcrumb({
+      items: [
+      ],
+      href: "/level-one/level-two/level-three",
+      text: "Medicines A - Z"
+    }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-three-quarters">
+
+      <h1>Paracetamol for children</h1>
+
+    </div>  
+
+  </div>
+
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-three-quarters">
+
+
+
+
+
+
+
+
+
+
+              {{ careCard({
+                "type": "urgent",
+                "heading": "Contact a medical professional straight away if:",
+                "HTML": "<p>You've given your child 1 extra dose of paracetamol. This can be dangerous and may need treatment.</p>
+                <p>Go to <a href='https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=hand_pain'>111.nhs.uk</a> or <a href='tel:111'>call 111</a>.</p>
+                
+                "
+              }) }}
+
+
+              {{ careCard({
+                "type": "urgent",
+                "heading": "Contact 111 straight away if your child has taken too much paracetamol",
+                "HTML": "<p>Even if you've given your child 1 extra dose of paracetamol. This can be dangerous and may need treatment.</p>
+                <p>Go to <a href='https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=hand_pain'>111.nhs.uk</a> or <a href='tel:111'>call 111</a>.</p>
+                
+                "
+              }) }}
+
+
+              {{ careCard({
+                "type": "urgent",
+                "heading": "Contact 111 if your child has taken too much paracetamol",
+                "HTML": "<p>Even if you've given your child 1 extra dose of paracetamol. This can be dangerous and may need treatment.</p>
+                <p>Go to <a href='https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=hand_pain'>111.nhs.uk</a> or</p> <p>Call <a href='tel:111'>111</a></p>
+                
+                "
+              }) }}
+
+              {{ careCard({
+                "type": "urgent",
+                "heading": "Get help from 111 now if:",
+                "HTML": "<h3>Your child has taken too much paracetamol</h3><p>Even if you've given your child 1 extra dose of paracetamol. This can be dangerous and may need treatment.</p>
+                <p><strong>Online</strong><br /><a href='https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=hand_pain'>Go to 111.nhs.uk</a></p> <p><strong>Telephone</strong><br /><a href='tel:111'>Call 111</a></p>
+                
+                "
+              }) }}
+
+                            {{ careCard({
+                "type": "urgent",
+                "heading": "Get help from 111 now if:",
+                "HTML": "<p>Your child has taken too much paracetamol.</p><p>Even if you've given your child 1 extra dose of paracetamol. This can be dangerous and may need treatment.</p>
+                <p><a href='https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=hand_pain'>Go to 111.nhs.uk</a></p> <p>or <a href='tel:111'>call 111</a></p>
+                
+                "
+              }) }}
+
+                            {{ careCard({
+                "type": "urgent",
+                "heading": "Get help from 111 now if:",
+                "HTML": "<p>Your child has taken too much paracetamol.</p><p>Even if you've given your child 1 extra dose of paracetamol. This can be dangerous and may need treatment.</p>
+                <p>Go to <a href='https://111.nhs.uk/?utm_source=nhsuk&amp;utm_campaign=conditions&amp;utm_content=hand_pain'>111.nhs.uk</a> or <a href='tel:111'>call 111</a></p>
+                
+                "
+              }) }}
+
+
+
+
+
+            
+    </div>  
+
+    <div class="nhsuk-grid-column-one-quarter">
+    
+
+
+    </div>
+  </div>
+{% endblock %}

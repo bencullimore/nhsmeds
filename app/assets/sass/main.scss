@@ -9,3 +9,15 @@
 @import 'components/related-nav';
 
 // Add your extra styles here...
+@media screen and (min-width: 641px) {
+    .infographic {
+         width: 200px;
+    }
+}
+
+
+@media screen and (min-width: 641px) {
+    .infographic2 {
+         width: 100px;
+    }
+}
