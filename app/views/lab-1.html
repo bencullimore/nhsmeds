@@ -80,9 +80,24 @@
           <p>If you're not sure how much to give, ask your pharmacist or doctor.</p>
           <p>Paracetamol tablets, syrup, and suppositories are available on prescription and to buy from shops and pharmacies.</p>
 
-          <div class="nhsuk-table__panel-with-heading-tab">
+                {{ insetText({
+                "HTML": "<p>The strength of the syrups are:</p>    
+            <ul>
+              <li>infant syrup - 5ml is equal to 120mg</li>
+              <li>six-plus - 5ml is equal to 250mg</li>
+            </ul>"
+              }) }}
+
+
+                {{ image({
+                "src": "https://assets.nhs.uk/prod/images/S_1017_baby-medicine_C0265537.2e16d0ba.fill-920x614.jpg",
+                "alt": "Giving baby medicine",
+                "caption": "Giving baby Paracetamol syrup using a syringe"
+                }) }}
+
+          <div class="nhsuk-table__panel-with-heading-tab nhsuk-u-margin-top-9">
             <h3 class="nhsuk-table__heading-tab">Paracetamol syrup dosages for children</h3>
-            <h4 class="nhsuk-u-margin-bottom-2">Infant syrup</h4>
+            <h4 class="nhsuk-u-margin-bottom-2">Infant syrup </h4>
             <div class="nhsuk-table-responsive">
               <table class="nhsuk-table nhsuk-u-margin-bottom-8">
                 <caption class="nhsuk-table__caption">Paracetamol infant syrup dosages for children</caption>
@@ -90,24 +105,29 @@
                   <tr class="nhsuk-table__row">
                     <th class="nhsuk-table__header" scope="col">Age</th>
                     <th class="nhsuk-table__header" scope="col">How much?</th>
+                    <th class="nhsuk-table__header" scope="col">How often?</th>
                   </tr>
                 </thead>
                 <tbody class="nhsuk-table__body">
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">3 to 6 months</td>
-                    <td class="nhsuk-table__cell "><strong>2.5ml</strong> every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">3 to 6 months</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>2.5ml</strong> </td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">6 to 24 months</td>
-                    <td class="nhsuk-table__cell "><strong>5ml</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">6 to 24 months</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>5ml</strong></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">2 to 4 years</td>
-                    <td class="nhsuk-table__cell "><strong>7.5ml</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">2 to 4 years</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>7.5ml</strong></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">4 to 6 years</td>
-                    <td class="nhsuk-table__cell "><strong>10ml</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">4 to 6 years</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>10ml</strong></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                 </tbody>
               </table>
@@ -119,20 +139,24 @@
                   <tr class="nhsuk-table__row">
                     <th class="nhsuk-table__header" scope="col">Age</th>
                     <th class="nhsuk-table__header" scope="col">How much?</th>
+                    <th class="nhsuk-table__header" scope="col">How often?</th>
                   </tr>
                 </thead>
                 <tbody class="nhsuk-table__body">
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">6 to 8 years</td>
-                    <td class="nhsuk-table__cell "><strong>5ml</strong> every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">6 to 8 years</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>5ml</strong></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">8 to 10 years</td>
-                    <td class="nhsuk-table__cell "><strong>7.5ml</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">8 to 10 years</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>7.5ml</strong></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">10 to 12 years</td>
-                    <td class="nhsuk-table__cell "><strong>10ml</strong> every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">10 to 12 years</td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;"><strong>10ml</strong></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                 </tbody>
               </table>
@@ -144,12 +168,6 @@
 
             </div>
           </div>
-
-            <p>The strength of the syrups are:</p>    
-            <ul>
-              <li>infant syrup - 5ml is equal to 120mg</li>
-              <li>six-plus - 5ml is equal to 250mg</li>
-            </ul>
 
 
           <p>Paracetamol syrup and suppositories can be given to children from 2 months if they have a fever after a vaccination injection.</p>  
@@ -164,24 +182,35 @@
                   <tr class="nhsuk-table__row">
                     <th class="nhsuk-table__header" scope="col">Age</th>
                     <th class="nhsuk-table__header" scope="col">How much?</th>
+                    <th class="nhsuk-table__header" scope="col">How often?</th>
                   </tr>
                 </thead>
                 <tbody class="nhsuk-table__body">
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">6 to 8 years</td>
-                    <td class="nhsuk-table__cell "><strong>250mg</strong> every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">6 to 8 years</td>
+                    <td class="nhsuk-table__cell ">
+                      <strong>250mg</strong><br/>
+                      <img src="/images/icon-tablet-250mg_v2.svg" class="nhsuk-u-margin-top-3 infographic2">
+                      </td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">8 to 10 years</td>
-                    <td class="nhsuk-table__cell "><strong>375mg</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">8 to 10 years</td>
+                    <td class="nhsuk-table__cell "><strong>375mg</strong><br/>
+                    <img src="/images/icon-tablet-375mg_v2.svg" class="nhsuk-u-margin-top-3 infographic2"></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">10 to 12 years</td>
-                    <td class="nhsuk-table__cell "><strong>500mg</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">10 to 12 years</td>
+                    <td class="nhsuk-table__cell "><strong>500mg</strong><br/>
+                    <img src="/images/icon-tablet-500mg_v2.svg" class="nhsuk-u-margin-top-3 infographic2"></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                   <tr class="nhsuk-table__row">
-                    <td class="nhsuk-table__cell">12 to 16 years</td>
-                    <td class="nhsuk-table__cell "><strong>750mg</strong>  every 4 to 6 hours</td>
+                    <td class="nhsuk-table__cell" style="vertical-align: top;">12 to 16 years</td>
+                    <td class="nhsuk-table__cell "><strong>750mg</strong><br/>
+                    <img src="/images/icon-tablet-750mg_v2.svg" class="nhsuk-u-margin-top-3 infographic2"></td>
+                    <td class="nhsuk-table__cell " style="vertical-align: top;">4 times in 24 hours</td>
                   </tr>
                 </tbody>
               </table>
