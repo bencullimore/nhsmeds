@@ -1,0 +1,57 @@
+{% extends 'layouts/layout-nhsuk.html' %}
+
+{% block pageTitle %}
+  NHS.UK prototype Kit - Content page template
+{% endblock %}
+
+{% block beforeContent %}
+    {{ breadcrumb({
+      items: [
+      ],
+      href: "/level-one/level-two/level-three",
+      text: "Home"
+    }) }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-three-quarters">
+
+<div class="nhsuk-form-group">
+
+<h1 class="nhsuk-fieldset__legend--l">Find a medicine</h1>
+
+      <form id="form_id" action="/templates/check-your-answers">
+
+          <label class="nhsuk-label" for="input-width-10">
+            Medicine or brand name
+        </label>
+        <input class="nhsuk-input " id="input-width-10" name="test-width-10" type="text">
+
+
+      </form>
+
+
+
+
+
+
+</div>
+
+<button class="nhsuk-button" type="submit">
+  Search
+</button>
+
+
+            
+    </div>  
+
+    <div class="nhsuk-grid-column-one-quarter">
+    
+
+
+    </div>
+  </div>
+{% endblock %}

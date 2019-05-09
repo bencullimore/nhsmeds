@@ -1,0 +1,61 @@
+{% extends 'layouts/layout-nhsuk.html' %}
+
+{% block pageTitle %}
+  NHS.UK prototype Kit - Content page template
+{% endblock %}
+
+{% block beforeContent %}
+    {{ breadcrumb({
+      items: [
+      ],
+      href: "/level-one/level-two/level-three",
+      text: "Home"
+    }) }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-three-quarters">
+
+
+
+
+<div class="nhsuk-warning-callout nhsuk-u-margin-top-0">
+  <h3 class="nhsuk-warning-callout__label">No results for "cake"</h3>
+  <p>We only have information for a limited number of medicines, so it might be the case that we don't have any information on your medicine.</p>
+
+  <p>You could:</p>
+  <ul>
+  <li>check your spelling and try again</li>
+  <li>try a different name (maybe a brand name)</li>
+  </ul>
+
+<p><a href="">Back to find a medicine</a></p>
+
+<p>If you need a medicine information on "cake" you can use one of the following websites.</p>
+
+<ul>
+    <li><a href="">Betty Crocker</a></li>
+    <li><a href="">Waitrose</a></li>
+<li><a href="">Marks and Spencer</a></li>
+
+
+
+
+
+
+
+</div>
+
+            
+    </div>  
+
+    <div class="nhsuk-grid-column-one-quarter">
+    
+
+
+    </div>
+  </div>
+{% endblock %}
